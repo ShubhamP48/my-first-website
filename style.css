@@ -1,20 +1,54 @@
 /* General Reset */
-
- body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin:40px;
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
     background-color: #f4f4f4;
-    color:  #333;
-}
-
-/* Heading */
-h1{
+    color: #333;
+  }
+  
+  /* Headings */
+  h1 {
     color: #2c3e50;
     font-size: 36px;
-}
-
-h2{
+  }
+  
+  h2 {
     color: #34495e;
     border-bottom: 2px solid #ddd;
     padding-bottom: 5px;
-}
+    margin-top: 30px;
+  }
+  
+  /* Paragraphs */
+  p {
+    line-height: 1.6;
+  }
+  
+  /* Lists */
+  ul, ol {
+    padding-left: 20px;
+  }
+  
+  /* Links */
+  a {
+    color: #2980b9;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: #1abc9c;
+  }
+  
+  /* Image */
+  img {
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  /* Footer */
+  hr {
+    margin-top: 40px;
+  }
+  
+  
